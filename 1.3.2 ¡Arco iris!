@@ -1,0 +1,16 @@
+# Este fondo se le ha dado.
+Rect(0, 0, 400, 400, relleno='azulCieloClaro')
+
+# Dibuje el arco iris usando círculos y gradientes de color.
+### Ponga su código aquí ###
+Circulo(200,300,200, relleno=gradiente('blanco','rojo','blanco',inicio='inferior'))
+Circulo(200,300,170, relleno=gradiente('blanco','naranja','blanco',inicio='inferior'))
+Circulo(200,300,140, relleno=gradiente('blanco','amarillo','blanco',inicio='inferior'))
+Circulo(200,300,110, relleno=gradiente('blanco','verde','blanco',inicio='inferior'))
+Circulo(200,300,80, relleno=gradiente('blanco','azul','blanco',inicio='inferior'))
+Circulo(200,300,50, relleno=gradiente('blanco','indigo','blanco',inicio='inferior'))
+Circulo(200,300,20, relleno=gradiente('blanco','violeta','blanco',inicio='inferior'))
+
+# Ahora dibuje hierba que cubra la mitad inferior de los círculos.
+### Ponga su código aquí ###
+Rect(0,300,400,100, relleno=gradiente('limaVerde','verdeBosque',inicio='superior'))
