@@ -1,0 +1,22 @@
+# Instagram
+### Ponga su código aquí ###
+Rect(20,20,160,160,relleno=None,borde=gradiente('orquideaOscura','rojo','naranja',inicio= 'derecha-superior'),anchuraDeBorde=15)
+Circulo(100,100,40,relleno=None,borde=gradiente('orquideaOscura','naranja',inicio= 'derecha-superior'),anchuraDeBorde=15)
+Circulo(150,50,10,relleno=('orquideaOscura'))
+### Ponga su código aquí ###
+Rect(205,40,185,120,relleno=('rojo'))
+Poligono(270,70,270,130,330,100,relleno=('blanco'))
+# Microsoft
+### Ponga su código aquí ###
+Rect(15,210,85,85,relleno=rgb(246,83,20))
+Rect(15,305,85,85,relleno=rgb(0,161,241))
+Rect(110,210,85,85,relleno=rgb(124,187,0))
+Rect(110,305,85,85,relleno=rgb(255,187,0))
+# Uber
+### (PISTA: ¡Use una línea para conectar las secciones negras externas e internas
+# a través del círculo!)
+### Ponga su código aquí ###
+Rect(210,210,180,180)
+Circulo(300,300,70,relleno=('blanco'))
+Linea(210,300,300,300,anchuraDeLinea=10)
+Rect(275,275,50,50)
